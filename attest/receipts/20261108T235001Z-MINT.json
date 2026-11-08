@@ -1,0 +1,19 @@
+{
+    "_type": "https://in-toto.io/Statement/v1",
+    "predicateType": "https://project-ilm.org/attestations/candor/v1",
+    "subject": [
+        {
+            "name": "zistgah/hecon",
+            "digest": {
+                "gitCommit": "22f384b37b387903df1ca6f0b839c21875433cc0"
+            }
+        }
+    ],
+    "predicate": {
+        "action": "MINT",
+        "reason": "seed",
+        "utc": "20261108T235001Z",
+        "host": "ilm01",
+        "note": "10.5281/zenodo.24064479"
+    }
+}
