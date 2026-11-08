@@ -1,0 +1,41 @@
+{
+ "name": "From Educational Harvesting to Productive Capacity",
+ "what": "A health economics paper with a scenario simulator and Colab notebooks for medicos.",
+ "holds": [
+  "paper in PDF, Word, LaTeX and Markdown, with slides",
+  "scenario simulator (hecon-model.js, equal to the Python model)",
+  "references with evidence states",
+  "six notebooks, three hosted until they move home"
+ ],
+ "author": {
+  "name": "Abhishek Choudhary",
+  "affiliation": "AyeAI",
+  "orcid": "0009-0002-0684-8320",
+  "email": "ayeai.ayeam@gmail.com"
+ },
+ "licences": {
+  "text": "CC-BY-SA-4.0",
+  "code": "GPL-3.0-or-later",
+  "metadata": "CC0-1.0"
+ },
+ "copyright": "© 1993–2026 Abhishek Choudhary. All rights reserved. AyeAI.",
+ "trademarks": "AyeAI® and AyeAM® registered in India; AyeCNSe™ Indian TM application No. 7415871, pending",
+ "repository": "https://github.com/zistgah/hecon",
+ "contract": "https://github.com/zistgah/governance/blob/main/CONTRACT.md",
+ "rungs": {
+  "console": "python -m hecon scenario",
+  "page": "this site",
+  "immersive": "not built"
+ },
+ "roles": [
+  "visitor",
+  "practitioner",
+  "learner",
+  "teacher",
+  "researcher",
+  "engineer",
+  "institution",
+  "patient"
+ ],
+ "role_parameter": "?role="
+}

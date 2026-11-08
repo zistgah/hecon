@@ -1,0 +1,52 @@
+{
+ "title": "From Educational Harvesting to Productive Capacity: A Health Economics Framework for AI-Assisted Clinical Reasoning, Competency-Based Medical Education and Open Knowledge Infrastructure",
+ "version": "1.0.0",
+ "upload_type": "publication",
+ "publication_type": "preprint",
+ "description": "<p>A conceptual health economics framework for evaluating AI-assisted clinical reasoning education as an investment in human capital and shared productive infrastructure. It distinguishes three interdependent forms of capital (learner clinical-reasoning capital, institutional educational-process capital and shared digital-infrastructure capital), develops testable propositions and proposes an empirical evaluation framework, and distinguishes harvesting existing resources from cultivating future productive capacity.</p><p>The deposit carries the manuscript (PDF, Word, LaTeX, Markdown) and slides; a scenario model in Python with an identical browser twin; six Colab notebooks for medicos (capital formation, cost-effectiveness, the cultivation game, a health IT and health-tech AI lab, a formula and document conversion workbench, and minting with Misty DOI); and the evidence state of every reference. Text CC BY-SA 4.0; code GPL-3.0-or-later; metadata CC0-1.0.</p><p>© 1993–2026 Abhishek Choudhary. All rights reserved. AyeAI.</p>",
+ "license": "cc-by-sa-4.0",
+ "access_right": "open",
+ "language": "eng",
+ "creators": [
+  {
+   "name": "Choudhary, Abhishek",
+   "affiliation": "AyeAI",
+   "orcid": "0009-0002-0684-8320"
+  }
+ ],
+ "keywords": [
+  "health economics",
+  "medical education",
+  "competency-based medical education",
+  "clinical reasoning",
+  "artificial intelligence",
+  "human capital",
+  "educational production function",
+  "open-source software",
+  "digital commons",
+  "cost-effectiveness"
+ ],
+ "repository": "https://github.com/zistgah/hecon",
+ "related_identifiers": [],
+ "references": [
+  "Lucas HC, Upperman JS, Robinson JR. A systematic review of large language models and their implications in medical education. Medical Education. 2024;58(11):1276-1285. https://doi.org/10.1111/medu.15402",
+  "Pham TD, et al. The impact of generative AI on health professional education: A systematic review in the context of student learning. Medical Education. 2025;59(12):1280-1289. https://doi.org/10.1111/medu.15746",
+  "Wei H, Dai Y, Yuan K, et al. AI-Powered Problem- and Case-based Learning in Medical and Dental Education: A Systematic Review and Meta-analysis. International Dental Journal. 2025;75(4):100858. https://doi.org/10.1016/j.identj.2025.100858",
+  "Cooper N, Bartlett M, Gay S, et al. Consensus statement on the content of clinical reasoning curricula in undergraduate medical education. Medical Teacher. 2021;43(2):152-159. https://doi.org/10.1080/0142159X.2020.1842343",
+  "Alharbi NS. Evaluating competency-based medical education: a systematized review of current practices. BMC Medical Education. 2024;24:612. https://doi.org/10.1186/s12909-024-05609-6",
+  "Bok HGJ, de Jong LH, O'Neill T, Maxey C, Hecker KG. Validity evidence for programmatic assessment in competency-based education. Perspectives on Medical Education. 2018;7:362-372. https://doi.org/10.1007/s40037-018-0481-2",
+  "Becker GS. Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education. National Bureau of Economic Research; 1964. https://www.nber.org/books-and-chapters/human-capital-theoretical-and-empirical-analysis-special-reference-education-first-edition",
+  "Grossman M. On the concept of health capital and the demand for health. Journal of Political Economy. 1972;80(2):223-255. https://doi.org/10.1086/259880",
+  "Husereau D, Drummond M, Augustovski F, et al. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) statement: updated reporting guidance for health economic evaluations. BMJ. 2022;376:e067975. https://doi.org/10.1136/bmj-2021-067975",
+  "Lerner J, Tirole J. Some simple economics of open source. The Journal of Industrial Economics. 2002;50(2):197-234. https://doi.org/10.1111/1467-6451.00174",
+  "von Hippel E, von Krogh G. Open source software and the 'private-collective' innovation model: issues for organization science. Organization Science. 2003;14(2):209-223. https://doi.org/10.1287/orsc.14.2.209.14992",
+  "Lerner J, Tirole J. The economics of technology sharing: open source and beyond. Journal of Economic Perspectives. 2005;19(2):99-120. https://doi.org/10.1257/0895330054048678",
+  "Johnson JP. Open source software: private provision of a public good. Journal of Economics & Management Strategy. 2002;11(4):637-662. https://doi.org/10.1111/j.1430-9134.2002.00637.x",
+  "Indian Council of Medical Research. National Ethical Guidelines for Biomedical and Health Research Involving Human Participants. New Delhi: ICMR; 2017. https://www.icmr.gov.in/icmrobject/custom_data/pdf/resource-guidelines/ICMR_Ethical_Guidelines_2017.pdf",
+  "World Medical Association. World Medical Association Declaration of Helsinki: ethical principles for medical research involving human participants. JAMA. 2025;333(1):71-74. https://doi.org/10.1001/jama.2024.21972",
+  "Council for International Organizations of Medical Sciences (CIOMS). International Ethical Guidelines for Health-related Research Involving Humans. 4th ed. Geneva: CIOMS; 2016.",
+  "World Health Organization. Ethics and governance of artificial intelligence for health: WHO guidance. Geneva: World Health Organization; 2021.",
+  "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (General Data Protection Regulation). Official Journal of the European Union. 2016;L 119:1-88. https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+  "United States Department of Health and Human Services. Standards for Privacy of Individually Identifiable Health Information (HIPAA Privacy Rule). 45 CFR Parts 160 and 164; de-identification standard at 45 CFR 164.514(b). https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164"
+ ]
+}

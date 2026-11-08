@@ -1,0 +1,24 @@
+# © 1993–2026 Abhishek Choudhary. All rights reserved. AyeAI.  SPDX-License-Identifier: GPL-3.0-or-later
+name: verify
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Tools the workbench notebook drives
+        run: sudo apt-get update -q && sudo apt-get install -y -q pandoc texlive-xetex texlive-fonts-recommended poppler-utils
+      - name: Notebook runner
+        run: pip install nbclient nbformat ipykernel matplotlib pyyaml
+      - name: The repository's gate, with the notebooks executed
+        env:
+          HECON_RUN_NOTEBOOKS: "1"
+        run: bash ops/verify.sh

@@ -1,0 +1,202 @@
+{
+ "checked_on": "2026-11-08",
+ "results": [
+  {
+   "id": "lucas2024",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref",
+   "found_title": "A systematic review of large language models and their implications in medical education",
+   "found_year": 2024,
+   "similarity": 1.0,
+   "finding": ""
+  },
+  {
+   "id": "pham2025",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref",
+   "found_title": "The impact of generative AI on health professional education: A systematic review in the context of student learning",
+   "found_year": 2025,
+   "similarity": 1.0,
+   "finding": ""
+  },
+  {
+   "id": "wei2025",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref",
+   "found_title": "AI-Powered Problem- and Case-based Learning in Medical and Dental Education: A Systematic Review and Meta-analysis",
+   "found_year": 2025,
+   "similarity": 1.0,
+   "finding": ""
+  },
+  {
+   "id": "cooper2021",
+   "checked_on": "2026-11-08",
+   "state": "open",
+   "source": "Crossref",
+   "found_title": "Consensus statement on the content of clinical reasoning curricula in undergraduate medical education",
+   "found_year": 2020,
+   "similarity": 1.0,
+   "finding": "title or year differs from the citation"
+  },
+  {
+   "id": "alharbi2024",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref",
+   "found_title": "Evaluating competency-based medical education: a systematized review of current practices",
+   "found_year": 2024,
+   "similarity": 1.0,
+   "finding": ""
+  },
+  {
+   "id": "bok2018",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref",
+   "found_title": "Validity evidence for programmatic assessment in competency-based education",
+   "found_year": 2018,
+   "similarity": 1.0,
+   "finding": ""
+  },
+  {
+   "id": "becker1964",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref search",
+   "similarity": 1.0,
+   "found_doi": "10.2307/3499575",
+   "finding": ""
+  },
+  {
+   "id": "grossman1972",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref",
+   "found_title": "On the Concept of Health Capital and the Demand for Health",
+   "found_year": 1972,
+   "similarity": 1.0,
+   "finding": ""
+  },
+  {
+   "id": "cheers2022",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref",
+   "found_title": "Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) statement: updated reporting guidance for health economic evaluations",
+   "found_year": 2022,
+   "similarity": 1.0,
+   "finding": ""
+  },
+  {
+   "id": "lerner2002",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref",
+   "found_title": "Some Simple Economics of Open Source",
+   "found_year": 2002,
+   "similarity": 1.0,
+   "finding": ""
+  },
+  {
+   "id": "vonhippel2003",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref",
+   "found_title": "Open Source Software and the \u201cPrivate-Collective\u201d Innovation Model: Issues for Organization Science",
+   "found_year": 2003,
+   "similarity": 1.0,
+   "finding": ""
+  },
+  {
+   "id": "lerner2005",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref",
+   "found_title": "The Economics of Technology Sharing: Open Source and Beyond",
+   "found_year": 2005,
+   "similarity": 1.0,
+   "finding": ""
+  },
+  {
+   "id": "johnson2002",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref",
+   "found_title": "Open Source Software: Private Provision of a Public Good",
+   "found_year": 2002,
+   "similarity": 1.0,
+   "finding": ""
+  },
+  {
+   "id": "icmr2017",
+   "checked_on": "2026-11-08",
+   "state": "reachable",
+   "source": "HTTP 200",
+   "finding": "the page resolves; its wording was not compared"
+  },
+  {
+   "id": "helsinki2024",
+   "checked_on": "2026-11-08",
+   "state": "open",
+   "source": "Crossref",
+   "found_title": "World Medical Association Declaration of Helsinki",
+   "found_year": 2025,
+   "similarity": 0.462,
+   "finding": "title or year differs from the citation"
+  },
+  {
+   "id": "cioms2016",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref search",
+   "similarity": 1.0,
+   "found_doi": "10.56759/rgxl7405",
+   "finding": ""
+  },
+  {
+   "id": "who2021",
+   "checked_on": "2026-11-08",
+   "state": "open",
+   "source": "Crossref search",
+   "similarity": 0.5,
+   "found_doi": "10.30574/msarr.2026.16.2.0051",
+   "finding": "no matching record found"
+  },
+  {
+   "id": "gdpr2016",
+   "checked_on": "2026-11-08",
+   "state": "reachable",
+   "source": "HTTP 200",
+   "finding": "the page resolves; its wording was not compared"
+  },
+  {
+   "id": "hipaa",
+   "checked_on": "2026-11-08",
+   "state": "reachable",
+   "source": "HTTP 200",
+   "finding": "the page resolves; its wording was not compared"
+  },
+  {
+   "id": "inker2021",
+   "checked_on": "2026-11-08",
+   "state": "verified",
+   "source": "Crossref",
+   "found_title": "New Creatinine- and Cystatin C\u2013Based Equations to Estimate GFR without Race",
+   "found_year": 2021,
+   "similarity": 1.0,
+   "finding": ""
+  },
+  {
+   "id": "daugirdas1993",
+   "checked_on": "2026-11-08",
+   "state": "open",
+   "source": "Crossref search",
+   "similarity": 0.786,
+   "found_doi": "10.1681/asn.v451205",
+   "finding": "no matching record found"
+  }
+ ]
+}

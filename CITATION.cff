@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "From Educational Harvesting to Productive Capacity: A Health Economics Framework for AI-Assisted Clinical Reasoning, Competency-Based Medical Education and Open Knowledge Infrastructure"
+version: 1.0.0
+date-released: '2026-11-05'
+license:
+  - CC-BY-SA-4.0
+  - GPL-3.0-or-later
+repository-code: "https://github.com/zistgah/hecon"
+url: "https://zistgah.github.io/hecon/"
+authors:
+  - family-names: Choudhary
+    given-names: Abhishek
+    affiliation: AyeAI
+    email: ayeai.ayeam@gmail.com
+    orcid: "https://orcid.org/0009-0002-0684-8320"
+keywords:
+  - health economics
+  - medical education
+  - competency-based medical education
+  - clinical reasoning
+  - artificial intelligence
+  - human capital
+  - open-source software
+  - digital commons
+abstract: >-
+  A health economics framework for evaluating AI-assisted clinical reasoning education as an investment in learner
+  clinical-reasoning capital, institutional educational-process capital and shared digital-infrastructure capital,
+  with a scenario simulator, notebooks for medicos and the evidence state of every reference.

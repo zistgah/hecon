@@ -1,0 +1,16 @@
+# From Educational Harvesting to Productive Capacity
+
+> A health economics framework for AI-assisted clinical reasoning education, competency-based medical education and open knowledge infrastructure, by Abhishek Choudhary (AyeAI, ORCID 0009-0002-0684-8320). Paper, a scenario simulator and six Colab notebooks for medicos.
+
+© 1993–2026 Abhishek Choudhary. All rights reserved. AyeAI. Text CC BY-SA 4.0; code GPL-3.0-or-later; metadata CC0-1.0. AyeAI® and AyeAM® are registered trade marks of Abhishek Choudhary in India; AyeCNSe™ (Indian TM application No. 7415871, pending).
+
+## Read these first
+- [The paper, Markdown](paper/manuscript_source.md): the canonical text, also as PDF, Word and LaTeX in paper/.
+- [References with evidence states](data/references.json): verified entries name their sources and what was checked; open entries say how they will be checked.
+- [The browser model](hecon-model.js): identical to hecon/model.py and hecon/game.py; tests/parity.js proves it.
+- [Repository](https://github.com/zistgah/hecon): README, CONTRACT.md, CONTEXT.md, AGENTS.md, COMPONENTS.md.
+
+## Rules you will be judged against
+- Every number in the simulator is an assumption; nothing is an estimate or a finding.
+- Retrieve before you assert; a claim without verification carries its evidence state.
+- The master contract: https://github.com/zistgah/governance/blob/main/CONTRACT.md

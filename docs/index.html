@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>From Educational Harvesting to Productive Capacity</title>
+<meta name="description" content="A health economics framework for AI-assisted clinical reasoning education, with a scenario simulator and Colab notebooks for medicos. Abhishek Choudhary, AyeAI.">
+<meta name="author" content="Abhishek Choudhary">
+<meta name="color-scheme" content="light dark">
+<link rel="alternate" type="text/plain" href="llms.txt" title="context for AI readers">
+<link rel="alternate" type="application/json" href="context.json" title="machine-readable statement of this page">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ScholarlyArticle","name":"From Educational Harvesting to Productive Capacity: A Health Economics Framework for AI-Assisted Clinical Reasoning, Competency-Based Medical Education and Open Knowledge Infrastructure","author":{"@type":"Person","name":"Abhishek Choudhary","affiliation":{"@type":"Organization","name":"AyeAI"},"identifier":"https://orcid.org/0009-0002-0684-8320"},"license":"https://creativecommons.org/licenses/by-sa/4.0/","codeRepository":"https://github.com/zistgah/hecon","copyrightHolder":"Abhishek Choudhary","copyrightYear":"1993-2026"}
+</script>
+<style>
+:root{--bg:#F5F7F4;--card:#FFFFFF;--ink:#17221D;--muted:#55665C;--rule:#D5DDD7;--leaf:#3F7A4E;--sprout:#B9CDBE;--soil:#7A5434;--water:#2C6A8E;--signal:#A63D2B;
+--serif:"Iowan Old Style","Palatino Linotype","URW Palladio L",P052,"Book Antiqua",Georgia,serif;--sans:Seravek,"Gill Sans Nova",Ubuntu,Calibri,"DejaVu Sans",source-sans-pro,sans-serif}
+@media (prefers-color-scheme:dark){:root{--bg:#0F1512;--card:#151D19;--ink:#E2EAE5;--muted:#9DB0A5;--rule:#2A3530;--leaf:#6DB383;--sprout:#33473A;--soil:#B4895E;--water:#6AA6CB;--signal:#E3836B}}
+*{box-sizing:border-box}html{background:var(--bg);color:var(--ink)}
+body{margin:0;font:17px/1.6 var(--sans);font-variant-numeric:tabular-nums}
+main,header,footer{max-width:68rem;margin:0 auto;padding:0 1.25rem}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.2;margin:0}
+h1{font-size:clamp(2rem,4.6vw,3.1rem);max-width:22ch;margin-top:2.2rem}
+h2{font-size:1.65rem;margin:3.2rem 0 .6rem}h3{font-size:1.15rem;margin:1.4rem 0 .4rem}
+p{max-width:72ch}.lede{font-family:var(--serif);font-size:1.25rem;color:var(--muted);max-width:60ch;margin:.8rem 0 1rem}
+a{color:var(--water)}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--signal);outline-offset:2px}
+.byline{color:var(--muted);margin:.2rem 0}.doi{margin:.2rem 0 1.4rem}
+.roles{display:flex;flex-wrap:wrap;gap:.4rem;margin:1rem 0;align-items:center}.roles span{color:var(--muted);margin-right:.3rem}
+button{font:inherit;font-size:.92rem;border:1px solid var(--rule);background:var(--card);color:var(--ink);border-radius:999px;padding:.25rem .8rem;cursor:pointer}
+button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.field{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:1rem 1rem .6rem;margin-top:.6rem}
+.field svg{width:100%;height:auto;display:block}.tabs{display:flex;gap:.4rem;flex-wrap:wrap;margin-bottom:.6rem}
+.key{color:var(--muted);font-size:.9rem;margin:.4rem 0 0}.takeaway{font-family:var(--serif);font-size:1.2rem;margin:.8rem 0 .2rem;max-width:62ch}
+.grid{display:grid;grid-template-columns:minmax(16rem,22rem) 1fr;gap:1.6rem;align-items:start}
+@media (max-width:820px){.grid{grid-template-columns:1fr}}
+fieldset{border:1px solid var(--rule);border-radius:12px;padding:.6rem .9rem .8rem;margin:0 0 .9rem}legend{font-weight:600;padding:0 .3rem}
+label{display:block;font-size:.93rem;margin:.55rem 0 .1rem}input[type=range]{width:100%}output{float:right;color:var(--muted)}
+select{font:inherit;width:100%;padding:.3rem;border-radius:8px;border:1px solid var(--rule);background:var(--card);color:var(--ink)}
+.chart{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:.7rem .8rem;margin-bottom:1rem}.chart svg{width:100%;height:auto}
+table{border-collapse:collapse;width:100%;font-size:.95rem}th,td{text-align:left;padding:.35rem .5rem;border-bottom:1px solid var(--rule);vertical-align:top}
+.note{color:var(--muted);font-size:.92rem}.state-verified{color:var(--leaf);font-weight:600}.state-open{color:var(--signal);font-weight:600}
+ol.steps{padding-left:1.3rem}ol.steps li{margin:.35rem 0;max-width:70ch}
+.nb{display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:.9rem}.nb article{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:.8rem 1rem}
+.nb h3{margin-top:0}.nb img{vertical-align:middle}footer{border-top:1px solid var(--rule);margin-top:4rem;padding-top:1.2rem;padding-bottom:3rem;color:var(--muted);font-size:.92rem}
+[hidden]{display:none!important}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+<h1>From Educational Harvesting to Productive Capacity</h1>
+<p class="lede">A health economics framework for AI-assisted clinical reasoning, competency-based medical education and open knowledge infrastructure.</p>
+<p class="byline">Abhishek Choudhary, AyeAI, Hyderabad, India. <a href="https://orcid.org/0009-0002-0684-8320">ORCID 0009-0002-0684-8320</a>. Correspondence: <a href="mailto:ayeai.ayeam@gmail.com">ayeai.ayeam@gmail.com</a></p>
+<p class="doi" id="doi">DOI: checking the repository record.</p>
+<div class="roles" role="group" aria-label="Show this page for"><span>Show this page for</span></div>
+</header>
+<main>
+<section id="field-section" data-roles="all" aria-labelledby="field-h">
+<h2 id="field-h">A harvest, or a field worth returning to</h2>
+<p>Each row is one year's cohort and each plant one in thirty of its learners. A tall plant has reached the competency threshold. The soil under a row deepens with shared open infrastructure, and the blue line beneath it strengthens with the institution's reusable teaching processes. Change the assumptions below and the field regrows.</p>
+<div class="field"><div class="tabs" role="tablist" aria-label="Teaching arm" id="tabs"></div><svg id="field" viewBox="0 0 640 330" role="img" aria-label="Field of cohorts"></svg>
+<p class="key">Tall green: competent. Pale: not yet. Brown band: shared digital-infrastructure capital. Blue line: institutional educational-process capital.</p></div>
+<p class="takeaway" id="takeaway" aria-live="polite"></p>
+<p class="note">Every number on this page follows from assumptions you set. The defaults only make the mechanics visible; they are not estimates and nothing here is a finding.</p>
+</section>
+<section id="sim" data-roles="all" aria-labelledby="sim-h">
+<h2 id="sim-h">Run your own scenario</h2>
+<div class="grid">
+<form id="controls" onsubmit="return false">
+<label for="preset">Start from</label>
+<select id="preset"><option value="default">The paper's illustration</option><option value="rich">A well-resourced teaching hospital</option><option value="lean">A resource-constrained medical college</option><option value="novalid">AI without validated alignment</option></select>
+<p class="note">Illustrative settings, not data from any institution. Costs are in any currency you choose.</p>
+<fieldset><legend>Learning</legend>
+<label for="validity">Alignment of AI questions with competencies <output for="validity"></output></label><input type="range" id="validity" min="0" max="1" step="0.05">
+<label for="ai_practice_mult">Practice with AI, times usual <output for="ai_practice_mult"></output></label><input type="range" id="ai_practice_mult" min="1" max="3" step="0.1">
+<label for="ai_feedback_mult">Feedback with AI, times usual <output for="ai_feedback_mult"></output></label><input type="range" id="ai_feedback_mult" min="1" max="3" step="0.1">
+<label for="capture"><input type="checkbox" id="capture"> Capture structured reasoning records</label>
+<label for="cohort_size">Learners per cohort <output for="cohort_size"></output></label><input type="range" id="cohort_size" min="20" max="400" step="10">
+<label for="years">Years <output for="years"></output></label><input type="range" id="years" min="3" max="20" step="1">
+</fieldset>
+<fieldset><legend>Costs per year</legend>
+<label for="faculty_rate">Faculty cost per hour <output for="faculty_rate"></output></label><input type="range" id="faculty_rate" min="5" max="150" step="5">
+<label for="automation_share">Faculty work the workflow can automate <output for="automation_share"></output></label><input type="range" id="automation_share" min="0" max="0.8" step="0.05">
+<label for="tech_fixed">Technology, fixed <output for="tech_fixed"></output></label><input type="range" id="tech_fixed" min="0" max="100000" step="1000">
+<label for="governance_fixed">Governance and validation, fixed <output for="governance_fixed"></output></label><input type="range" id="governance_fixed" min="0" max="60000" step="1000">
+<label for="cultivation_cost">Contributing back (cultivate arm) <output for="cultivation_cost"></output></label><input type="range" id="cultivation_cost" min="0" max="60000" step="1000">
+<label for="infra_own">Shared infrastructure each contribution adds <output for="infra_own"></output></label><input type="range" id="infra_own" min="0" max="2" step="0.1">
+</fieldset>
+</form>
+<div>
+<div class="chart"><h3>Learners reaching the threshold, each year</h3><svg id="c-competent" viewBox="0 0 600 260"></svg></div>
+<div class="chart"><h3>Cumulative cost per competent learner</h3><svg id="c-cpc" viewBox="0 0 600 260"></svg></div>
+<div class="chart"><h3>Capital left behind: shared infrastructure and institutional processes</h3><svg id="c-cap" viewBox="0 0 600 260"></svg></div>
+<table id="icer"><caption class="note" style="caption-side:bottom;text-align:left">Cost per additional competent learner against conventional teaching, cumulative. Dominant: more competent learners for less money. Dominated: none gained for more money.</caption></table>
+</div></div>
+</section>
+<section id="game" data-roles="researcher institution teacher engineer visitor" aria-labelledby="game-h">
+<h2 id="game-h">Why institutions under-invest in the commons</h2>
+<p>Each institution chooses to cultivate shared open infrastructure or to harvest it (paper, section 9). A maintained commons benefits everyone once enough contribute, so there are often two stable outcomes, and the better one still falls short of what would serve everyone best. Recognition and funding change which outcome holds.</p>
+<div class="grid"><form id="gcontrols" onsubmit="return false">
+<label for="g_players">Institutions <output for="g_players"></output></label><input type="range" id="g_players" min="2" max="20" step="1">
+<label for="g_c">Cost of contributing <output for="g_c"></output></label><input type="range" id="g_c" min="0" max="15" step="0.5">
+<label for="g_s">Private benefit of contributing <output for="g_s"></output></label><input type="range" id="g_s" min="0" max="10" step="0.5">
+<label for="g_r">Recognition <output for="g_r"></output></label><input type="range" id="g_r" min="0" max="10" step="0.5">
+<label for="g_f">Funding per contributor <output for="g_f"></output></label><input type="range" id="g_f" min="0" max="10" step="0.5">
+<label for="g_B">Benefit of a maintained commons <output for="g_B"></output></label><input type="range" id="g_B" min="0" max="20" step="0.5">
+<label for="g_k_star">Contributors needed to maintain it <output for="g_k_star"></output></label><input type="range" id="g_k_star" min="1" max="20" step="1">
+</form><div><p class="takeaway" id="gtext" aria-live="polite"></p><div class="chart"><h3>Share of institutions cultivating, if each copies what pays</h3><svg id="c-rep" viewBox="0 0 600 260"></svg></div></div></div>
+</section>
+<section id="notebooks" data-roles="all" aria-labelledby="nb-h">
+<h2 id="nb-h">Notebooks you can run in Colab</h2>
+<p>Each step's code is hidden behind a plain explanation; press the play button on each step in order. Three notebooks are hosted here until they move to the estate repository where they belong.</p>
+<div class="nb" id="nblist"></div>
+</section>
+<section id="privacy" data-roles="practitioner learner teacher patient institution researcher visitor" aria-labelledby="pv-h">
+<h2 id="pv-h">Privacy that holds wherever a case comes from</h2>
+<p>Clinical cases teach because they are real, and real cases identify people. Removing a name is not enough: age, dates, diagnosis, place and an unusual history can identify a patient together. The tools here follow the strictest of the major frameworks so they hold in every country: the EU GDPR, the US HIPAA Privacy Rule, the UK Data Protection Act 2018, India's Digital Personal Data Protection Act 2023 and ICMR guidelines, Brazil's LGPD, South Africa's POPIA and Kenya's Data Protection Act, with the Declaration of Helsinki (2024), the CIOMS guidelines (2016) and WHO guidance on AI for health (2021). Where two of them differ, the stricter requirement applies. The health IT notebook shows each step on a synthetic case.</p>
+</section>
+<section id="paper" data-roles="all" aria-labelledby="paper-h">
+<h2 id="paper-h">The paper</h2>
+<p>Read it as <a href="paper/productive_capacity_health_economics_manuscript.pdf">PDF</a>, <a href="paper/productive_capacity_health_economics_manuscript.docx">Word</a>, <a href="paper/productive_capacity_health_economics_manuscript.tex">LaTeX</a> or <a href="paper/manuscript_source.md">Markdown</a>, with the <a href="paper/productive_capacity_health_economics_presentation.pptx">slides</a>. It is a conceptual analysis and a proposed evaluation framework; it reports no intervention results and no cost estimates.</p>
+<h3>Every reference, with its evidence state</h3>
+<p class="note">Verified means the record and every figure quoted from it were checked against the named source. Open means it has not been checked yet, and says how it will be.</p>
+<table id="refs"></table>
+</section>
+<section id="published" data-roles="researcher engineer institution visitor" aria-labelledby="pub-h">
+<h2 id="pub-h">How this was published</h2>
+<ol class="steps">
+<li><strong>Seal.</strong> Every file is listed with its SHA-256 hash in a manifest that must verify before anything leaves the author's machine.</li>
+<li><strong>Clear.</strong> The repository's own gate checks the tests, the parity of the two models, the notebooks, the references, the trade-mark marking, secrets and file sizes.</li>
+<li><strong>Attest.</strong> The author types his intent (PUSH, then MINT, each with a reason). Each typed intent is kept as a receipt and timestamped with OpenTimestamps.</li>
+<li><strong>Mint.</strong> Misty DOI deposits the sealed commit on Zenodo and the DOI is written back into the README and the citation file, and sealed again.</li>
+</ol>
+<p>Notebook 06 walks you through the same process for your own teaching material, under your own account.</p>
+</section>
+<section id="estate" data-roles="all" aria-labelledby="estate-h">
+<h2 id="estate-h">Where this sits</h2>
+<p>This repository is one component of the author's estate of independently usable components.</p>
+<ul>
+<li><a href="https://zistgah.github.io/rahnuma/">Rahnuma</a>, the guide to the whole estate (<a href="https://doi.org/10.5281/zenodo.23062059">10.5281/zenodo.23062059</a>).</li>
+<li><a href="https://zistgah.org/">zistgah.org</a>, the estate and its catalogue.</li>
+<li><a href="https://github.com/zistgah/marham">marham</a>, the health-informatics layer, home of the health IT lab.</li>
+<li><a href="https://github.com/project-ilm/misty-doi">Misty DOI</a>, which mints this paper, and home of the minting notebook.</li>
+<li><a href="https://zistgah.github.io/matba/">matba</a>, the press, proposed home of the conversion workbench.</li>
+<li><a href="https://github.com/zistgah/cvas">CVAS</a>, the contribution, verification and assurance harness.</li>
+<li><a href="https://pvjournal.github.io/pajr/">PaJR reader</a>, an index of participatory case reports that belong to their authors.</li>
+<li><a href="https://github.com/zistgah/governance/blob/main/CONTRACT.md">The master contract</a> every repository inherits.</li>
+</ul>
+</section>
+</main>
+<footer>
+<p>© 1993–2026 Abhishek Choudhary. All rights reserved. AyeAI. Text CC BY-SA 4.0; code GPL-3.0-or-later; metadata CC0-1.0. AyeAI® and AyeAM® are registered trade marks of Abhishek Choudhary in India; AyeCNSe™ (Indian TM application No. 7415871, pending) is his trade mark. Licences grant copyright permissions only and no right in any mark.</p>
+<p>Cite with <a href="https://github.com/zistgah/hecon/blob/main/CITATION.cff">CITATION.cff</a>. For people and assistants arriving cold: <a href="llms.txt">llms.txt</a> and <a href="context.json">context.json</a>. Console rung: <code>python -m hecon scenario</code>. Immersive rung: not built.</p>
+</footer>
+<script src="hecon-model.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

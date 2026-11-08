@@ -1,0 +1,15 @@
+# © 1993–2026 Abhishek Choudhary. All rights reserved. AyeAI.
+name: Scenario from your setting
+description: Share the assumptions you used and what you learnt. No identifying details.
+labels: ["scenario"]
+body:
+  - type: textarea
+    id: setting
+    attributes: {label: Your setting, description: "Country or region, kind of institution, cohort size. Nothing that identifies a person."}
+    validations: {required: true}
+  - type: textarea
+    id: params
+    attributes: {label: The settings you changed, description: "Paste them, or the output of python -m hecon scenario --json."}
+  - type: textarea
+    id: learnt
+    attributes: {label: What you learnt}

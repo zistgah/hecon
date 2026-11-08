@@ -1,0 +1,564 @@
+# From Educational Harvesting to Productive Capacity
+
+## A Health Economics Framework for AI-Assisted Clinical Reasoning, Competency-Based Medical Education and Open Knowledge Infrastructure
+
+**Abhishek Choudhary**  
+AyeAI, Hyderabad, India  
+ORCID: [0009-0002-0684-8320](https://orcid.org/0009-0002-0684-8320)  
+Correspondence: Abhishek Choudhary, AyeAI, Hyderabad, India. Email: ayeai.ayeam@gmail.com
+
+© 1993–2026 Abhishek Choudhary. All rights reserved. AyeAI.  
+The text of this manuscript is licensed under the Creative Commons Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0).
+
+Manuscript type: Conceptual analysis and proposed economic evaluation framework
+Disciplinary orientation: Health Economics, Health Professions Education, Digital Health, Innovation Economics and Institutional Economics
+
+## Abstract
+
+Background: Artificial intelligence (AI) is increasingly being incorporated into health professions education, particularly through large language models, intelligent tutoring systems and AI-assisted problem-based and case-based learning. These technologies may improve access to learning resources, support formative feedback and reduce the administrative costs of educational delivery. However, the economic and institutional implications of integrating AI into competency-based medical education (CBME) remain insufficiently specified. In particular, the distinction between deploying existing technological resources and cultivating reusable educational and technological infrastructure has received limited attention.
+
+Objective: This paper develops an integrated health economics framework for evaluating AI-assisted clinical reasoning education as an investment in human capital and shared productive infrastructure. It connects educational production, competency development, workflow automation, information governance, open-source innovation and strategic incentives.
+
+Methods: A conceptual synthesis is developed across five domains: human-capital theory, the economics of health and education production, competency-based assessment, the economics of technological innovation and the governance of digital commons. Existing empirical and review literature on AI-assisted medical education, clinical reasoning, CBME evaluation and open-source innovation is used to identify the principal mechanisms and evidence gaps. A dynamic conceptual model and a set of testable propositions are developed. An empirical evaluation framework is proposed for subsequent implementation research.
+
+Results: The framework identifies three interdependent forms of capital: learner clinical-reasoning capital, institutional educational-process capital and shared digital-infrastructure capital. AI can reduce selected transaction and production costs by converting unstructured educational activities into reusable, auditable workflows. However, automation does not necessarily produce competence gains, and increased knowledge acquisition cannot be assumed to represent improved clinical reasoning. The economic value of an intervention therefore depends on measurable learning outcomes, implementation costs, data governance, distribution of benefits and the extent to which reusable contributions strengthen the wider knowledge ecosystem.
+
+Conclusions: AI-assisted CBME should be evaluated not merely as a teaching technology but as a potentially scalable investment in clinical human capital and shared knowledge infrastructure. Its long-term economic value depends on whether it develops demonstrable clinical competence while generating reusable educational and technological assets. The distinction between harvesting existing resources and cultivating future productive capacity provides a useful framework for analysing the sustainability of AI-enabled medical education.
+
+**Keywords:** Health economics; artificial intelligence; competency-based medical education; clinical reasoning; human capital; educational production function; open-source software; digital commons; transaction costs; innovation economics; health professions education.
+
+**JEL classification:** I10, I18, I20, J24, O31, O33, L86.
+
+
+## 1. Introduction
+
+The integration of artificial intelligence into medical education presents an opportunity to reconsider the economics of educational production in healthcare.
+
+Large language models and other AI systems can generate clinical questions, explain concepts, construct case scenarios, provide formative feedback and assist educators with documentation. Their potential significance, however, extends beyond the automation of individual teaching tasks.
+
+A more consequential possibility is the transformation of educational activity into structured, reusable and evaluable processes.
+
+Consider a case-based learning intervention involving a patient with chronic kidney disease receiving haemodialysis. A conventional educational approach might present the case, ask students questions about pathophysiology and management, and evaluate their answers.
+
+An AI-supported approach could extend this process through progressive questioning, structured clinical reasoning records, feedback, competency mapping and longitudinal assessment. The resulting educational artefacts could subsequently support curriculum development, research, faculty evaluation and further automation.
+
+This creates an economic question:
+
+Can AI-assisted educational workflows increase the productive capacity of medical education systems while improving the development and assessment of clinical competence?
+
+The question cannot be answered solely by measuring student engagement, the number of questions generated or the speed of content production. It requires an integrated assessment of learning outcomes; clinical reasoning development; educational production costs; faculty and student time; infrastructure and maintenance costs; data governance and privacy; reusability of educational resources; institutional incentives; contributions to shared technological infrastructure; and long-term effects on healthcare workforce capability.
+
+The economic argument developed here is that AI-assisted CBME should be examined as a potentially capital-forming intervention rather than simply a technology-assisted teaching activity.
+
+The distinction is important. A technology may increase the immediate volume of educational output without increasing the long-term productive capacity of the institution. Conversely, a relatively modest intervention may create reusable infrastructure that generates benefits across successive cohorts.
+
+This paper develops a framework for distinguishing these outcomes.
+
+## 2. Theoretical foundations
+
+2.1 Education as investment in human capital
+
+Human-capital theory treats education and training as investments that increase the productive capabilities of individuals. Becker's foundational work established the economic significance of investment in education and on-the-job training, distinguishing private returns from wider productivity effects.
+
+In medical education, the relevant productive asset is not simply accumulated factual knowledge. It includes the ability to interpret clinical information, identify problems, evaluate evidence, make decisions and apply knowledge under varying conditions.
+
+The quality of medical education therefore has implications beyond examination performance. A physician's clinical reasoning capability influences diagnostic processes, the selection and interpretation of investigations, treatment decisions, resource utilisation and patient management.
+
+Consequently, educational interventions that improve clinical reasoning may have downstream implications for healthcare productivity and resource allocation. However, these benefits must be demonstrated rather than assumed. Improved educational scores cannot automatically be translated into improved patient outcomes or reduced healthcare expenditure.
+
+The proposed framework therefore treats clinical reasoning as a form of professional human capital whose accumulation must be measured over time.
+
+2.2 Health capital and healthcare production
+
+Grossman's model of health capital provides another relevant theoretical foundation. Grossman conceptualised health as a durable capital stock that can be affected by investment and depreciation. Individuals demand healthcare partly because it contributes to the maintenance or improvement of this stock.
+
+The present framework extends the analytical perspective to the production of healthcare capability. Medical education contributes to the formation of professional capabilities that subsequently enter healthcare production.
+
+This creates a relationship between educational investment and the productive capacity of healthcare systems. The relationship is indirect and mediated by educational quality, competency acquisition, clinical practice environments, institutional organisation, availability of diagnostic and therapeutic resources, professional judgement, and patient and system characteristics.
+
+It would therefore be inappropriate to assume that an improvement in an educational metric necessarily produces a proportional improvement in population health. The economic evaluation must identify the intermediate mechanisms through which educational investments may generate downstream value.
+
+2.3 Educational production functions
+
+Educational production can be represented as a transformation of inputs into learning outcomes. For an AI-assisted CBME intervention, the relevant inputs include faculty time, student time, clinical cases, educational content, AI systems, computing infrastructure, assessment instruments, institutional governance and data-management systems.
+
+A simplified production function can be expressed as:
+
+Lᵢ,ₜ = f(Kᵢ,ₜ, Fₜ, Aₜ, Cₜ, Gₜ)
+
+where Lᵢ,ₜ represents the learning outcome of learner i at time t; Kᵢ,ₜ represents prior knowledge and accumulated clinical reasoning capability; Fₜ represents faculty input; Aₜ represents AI-supported educational input; Cₜ represents case and curriculum resources; and Gₜ represents the governance and implementation environment.
+
+This formulation makes an important distinction: AI is an input into educational production. It is not itself the educational outcome. The production function must be evaluated against meaningful measures of learning and competence.
+
+## 3. Clinical reasoning as an accumulative capability
+
+3.1 Beyond factual recall
+
+Clinical reasoning involves the interpretation of clinical information and the formation, evaluation and revision of diagnostic and management decisions. The UK Clinical Reasoning in Medical Education consensus statement identifies five principal domains: clinical reasoning concepts; history-taking and physical examination; choosing and interpreting diagnostic tests; problem identification and management; and shared decision-making.
+
+The consensus statement supports explicit and integrated clinical reasoning education throughout medical curricula. It also highlights an important distinction between teaching general thinking processes and developing the specific knowledge structures required for effective reasoning.
+
+This is relevant to AI-assisted learning because a system that generates questions about clinical cases may produce educational activity without necessarily developing the knowledge structures and judgement required for competent practice. A useful intervention must therefore connect questions to defined competencies and measurable performance.
+
+3.2 Bloom's taxonomy and competency measurement
+
+Bloom's taxonomy provides a classification of cognitive activities, ranging from remembering and understanding to applying, analysing, evaluating and creating. It can help educators construct progressive learning sequences.
+
+However, the classification of a question at a particular cognitive level does not establish that the learner has acquired the corresponding competence. A question intended to elicit analysis is not evidence of analytical competence; a correct answer is not necessarily evidence of sound clinical reasoning; student engagement is not evidence of clinical competence; and a knowledge assessment is not a substitute for observed clinical performance.
+
+The relevant economic question is whether the intervention produces additional, durable and transferable competency relative to its cost.
+
+3.3 Competency as a stock variable
+
+Clinical reasoning should be modelled as an accumulative capability rather than a sequence of isolated examination results. A simplified dynamic representation is:
+
+Kᵢ,ₜ₊₁ = (1 − δ)Kᵢ,ₜ + φ(Pᵢ,ₜ, Fᵢ,ₜ, Eᵢ,ₜ)
+
+where Kᵢ,ₜ is the learner's clinical reasoning capability at time t; δ is the rate of depreciation or loss of retained capability; Pᵢ,ₜ represents deliberate practice; Fᵢ,ₜ represents feedback; Eᵢ,ₜ represents clinical and educational experience; and φ represents the learning-production process.
+
+This is a conceptual model, not an estimated empirical equation. It emphasises that competence develops through repeated practice, feedback, experience and retention. AI may increase the frequency, availability or consistency of these inputs. Whether it improves the resulting capability is an empirical question.
+
+## 4. AI-assisted Socratic learning as an educational production technology
+
+4.1 Progressive case-based learning
+
+AI-supported Socratic questioning can create a structured progression through clinical cases. A case involving chronic kidney disease and haemodialysis could be organised around pathophysiology, clinical presentation, diagnostic interpretation, dialysis adequacy, complications, long-term management, multidisciplinary care and decision-making under uncertainty.
+
+The educational value lies not simply in generating more questions but in connecting each question to a defined learning objective and competency. The system should be able to identify what a learner is expected to demonstrate at each stage.
+
+4.2 Structured reasoning artefacts
+
+For automation and evaluation, the system should capture observable and auditable reasoning artefacts rather than private internal chain-of-thought. These artefacts can include initial problem representation; differential diagnoses; supporting and contradictory evidence; questions raised; information sought; diagnostic decisions; management rationale; recognised uncertainty; and revisions following feedback.
+
+This distinction is important for both educational validity and responsible data governance. A structured record of a learner's stated reasoning and decisions can support evaluation without requiring disclosure of hidden internal model reasoning or unrestricted private thought processes.
+
+4.3 From individual teaching interactions to reusable workflows
+
+The structured educational process can support repeatable operations: converting paper-based case summaries into digital records; creating progressive Socratic question sequences; mapping questions to competencies; producing alternative case scenarios; generating formative assessments; preparing feedback against defined criteria; maintaining longitudinal learner records; supporting faculty review; preparing structured research datasets; and assisting with manuscript preparation.
+
+The economic opportunity lies in the reuse of these workflows. A system that repeatedly performs a validated operation may reduce the marginal cost of delivering that operation to additional learners. However, the cost of validation, supervision, maintenance and error correction must remain part of the calculation.
+
+4.4 The human oversight requirement
+
+AI-generated clinical content can be inaccurate, incomplete or contextually inappropriate. Human educators must therefore remain responsible for clinical validation, competency interpretation and consequential assessment decisions.
+
+The appropriate economic model is not necessarily the replacement of faculty input. It is the reallocation of faculty effort from repetitive administrative and content-generation activities towards higher-value educational functions. Whether that reallocation occurs in practice should be measured.
+
+## 5. The emerging evidence base
+
+5.1 Large language models in medical education
+
+Lucas, Upperman and Robinson's 2024 systematic review examined the applications and implications of large language models in medical education. The review identified potential applications in personalised learning, tutoring and information support, while highlighting concerns involving accuracy, ethics, privacy and the long-term impact on learning and clinical practice.
+
+The findings support the potential utility of LLMs but do not establish that every AI-supported educational intervention improves clinical competence.
+
+5.2 Generative AI in health professions education
+
+Pham and colleagues' 2025 systematic review examined how health professions students use generative AI. The review employed Laurillard's Conversational Framework, which identifies six learning types: acquisition, inquiry, practice, production, discussion and collaboration.
+
+This is useful for understanding AI as part of a broader educational process rather than as an isolated information-generation technology.
+
+5.3 AI-powered problem-based and case-based learning
+
+Wei and colleagues' 2025 systematic review and meta-analysis included six randomised controlled trials examining AI-powered problem-based and case-based learning in medical and dental education. Four studies contributed to the meta-analysis of knowledge acquisition. The pooled standardised mean difference was 0.46, with a 95% confidence interval of 0.18-0.73 and a reported p-value of 0.001.
+
+Three studies contributed to the satisfaction analysis. The authors could not statistically pool clinical reasoning outcomes because of methodological and measurement heterogeneity. The review also identified concerns regarding the limited number of studies and risk of bias.
+
+This is an important finding for the present framework. The evidence supports the potential of AI-assisted learning to improve knowledge acquisition and learner satisfaction. It does not yet provide an equivalent pooled estimate for clinical reasoning capability. The economic evaluation of AI-assisted CBME must therefore avoid treating knowledge gains as a proxy for all dimensions of competence.
+
+5.4 Evaluation of CBME
+
+Alharbi's 2024 systematized review examined evaluation practices across competency-based medical and health professions education. Thirty-eight studies met the review's inclusion criteria. The review identified considerable variation in how CBME programmes reported their evaluation objectives, approaches, instruments and standards. This reinforces the need for a clearly specified evaluation framework.
+
+Bok and colleagues' 2018 study examined programmatic assessment in competency-based education using 327,974 assessment data points from 962 students across 124 weeks. The study reported reliability coefficients ranging from 0.86 to 0.90 across the assessment methods examined. Its setting was veterinary education, so its results should not be transferred uncritically to undergraduate human medical education. Nevertheless, it provides relevant evidence about the potential of longitudinal, programmatic assessment to track competency development.
+
+Taken together, the literature identifies an opportunity but also a methodological gap: the need to connect AI-assisted learning activity to validated, longitudinal measures of clinical reasoning and competence.
+
+## 6. Healthcare economics: the cost structure of AI-assisted CBME
+
+6.1 Defining the economic intervention
+
+An AI-assisted educational intervention should be evaluated against a clearly specified comparator. Possible comparators include conventional case-based learning; conventional Socratic instruction; digital learning without generative AI; AI-supported learning without structured reasoning capture; and AI-supported learning with longitudinal competency assessment.
+
+The comparator determines what costs and outcomes are incremental. Without a defined comparator, statements about efficiency or cost savings are not economically interpretable.
+
+6.2 Direct and indirect costs
+
+The cost structure should include educational labour (faculty preparation, teaching and assessment time; student participation time; technical and administrative support); technology (AI model access, compute and hosting, storage, integration, software maintenance, security, monitoring and model evaluation); implementation (faculty training, student orientation, curriculum redesign, data preparation, workflow development and institutional approvals); governance (privacy review, consent and permissions, data protection, clinical validation, audit and incident management); and opportunity costs (faculty and student time displaced from alternative activities, infrastructure resources committed, and maintenance obligations created).
+
+A low-cost AI interface may still have a substantial total cost if the surrounding validation, governance and maintenance requirements are ignored.
+
+6.3 Marginal cost and scalability
+
+One possible advantage of a structured AI-supported workflow is the reduction of marginal costs. Once a validated question-generation and assessment workflow exists, delivering it to an additional learner may require less incremental faculty effort than constructing every educational interaction manually.
+
+However, the marginal cost is not zero. It includes additional model usage, storage, monitoring, supervision and potential remediation. The relevant economic measure is therefore the incremental cost per additional learner achieving a defined competency outcome.
+
+6.4 A cost-effectiveness framework
+
+A conventional incremental cost-effectiveness ratio can be represented as:
+
+ICER = (C_AI − C_C) / (E_AI − E_C)
+
+where C_AI is the cost of AI-assisted CBME; C_C is the cost of the comparator; E_AI is the measured educational or competency outcome under AI-assisted CBME; and E_C is the corresponding outcome under the comparator.
+
+The denominator must be defined carefully. Possible outcomes include additional learners achieving a specified competency threshold; improvement in a validated clinical reasoning assessment; retention of competence at a defined follow-up; and improvement in performance on unfamiliar clinical cases.
+
+A cost-per-competent-learner measure may be particularly useful for institutional planning. Where evidence supports a credible link to patient outcomes, longer-term modelling may explore health-system consequences. Such modelling must explicitly state its assumptions and avoid treating educational assessment gains as direct evidence of improved health outcomes.
+
+6.5 Beyond cost-effectiveness
+
+A complete economic evaluation may also examine cost-consequence analysis; cost-utility analysis, where appropriate health outcomes can be modelled credibly; budget impact; distributional effects; opportunity costs; and sensitivity to model pricing and infrastructure costs.
+
+CHEERS 2022 provides reporting guidance for health economic evaluations. It is relevant to the design and reporting of a subsequent economic study, although the present conceptual paper does not claim to be a completed economic evaluation.
+
+## 7. Information economics, privacy and the cost of trust
+
+7.1 Clinical information as a high-value but constrained resource
+
+Clinical cases are valuable educational resources because they connect abstract knowledge to actual clinical circumstances. However, the informational value of a clinical case must be balanced against the risks of disclosure and re-identification.
+
+Removing names does not necessarily anonymise a case. A combination of age, sex, diagnosis, treatment history, dates, unusual clinical circumstances and institutional context may make a patient identifiable. Student identity may also become traceable through institutional and social-media connections.
+
+7.2 Anonymisation as a system-level process
+
+Privacy protection should be incorporated throughout the educational workflow. Relevant controls include data minimisation; removal or transformation of direct identifiers; review of indirect identifiers; separation of source records from educational records; access control; secure storage; defined retention periods; audit trails; publication review; and appropriate consent and institutional permissions.
+
+The Indian Council of Medical Research's 2017 National Ethical Guidelines for Biomedical and Health Research Involving Human Participants provides an important Indian framework for privacy, confidentiality and informed consent. The applicable requirements depend on whether the activity constitutes routine teaching, educational research, a clinical case report or another form of research or publication.
+
+The same obligations arise under international and other national instruments. The World Medical Association's Declaration of Helsinki, revised in 2024, and the CIOMS International Ethical Guidelines for Health-related Research Involving Humans (2016) set out requirements for consent, confidentiality and ethical review in research involving human participants and their data. The World Health Organization's guidance on the ethics and governance of artificial intelligence for health (2021) addresses the use of AI systems with health information. Data-protection law applies in addition: the European Union's General Data Protection Regulation (Regulation (EU) 2016/679) treats health data as a special category and distinguishes pseudonymised from anonymous data, and the United States HIPAA Privacy Rule (45 CFR Parts 160 and 164) defines de-identification through its Safe Harbor and Expert Determination methods. An educational workflow that uses clinical cases across institutions or countries should satisfy the requirements of every jurisdiction in which a case originates or is used, including those of low-resource settings, and should adopt the strictest applicable standard where requirements differ.
+
+7.3 Privacy as an economic variable
+
+Privacy is not merely a compliance expense. It contributes to trust, participation and the sustainability of educational data infrastructure.
+
+A system that generates educational value by exposing identifiable clinical information creates costs that may exceed its immediate benefits. The relevant economic calculation must include the costs of prevention, governance, monitoring and potential harm.
+
+The objective is to make educational information reusable without making identifiable clinical information unnecessarily accessible.
+
+## 8. FOSS and the economics of technological cultivation
+
+8.1 The distinction between harvesting and cultivating
+
+Open-source software enables users to inspect, use, modify and redistribute software according to the applicable licence. But the economic distinction between using existing resources and increasing their productive capacity is significant.
+
+Harvesting involves identifying useful projects, downloading existing code, integrating components and building applications that benefit from existing infrastructure.
+
+Cultivating involves contributing upstream, maintaining reusable components, improving documentation, building tests, resolving defects, supporting interoperability, developing shared standards and creating new tools that others can extend.
+
+Both activities can create value. However, harvesting does not necessarily replenish the productive capacity of the ecosystem. Cultivation does.
+
+8.2 Open-source software as a private-collective innovation model
+
+The economic literature provides a foundation for this distinction. Von Hippel and von Krogh's 2003 paper, Open Source Software and the 'Private-Collective' Innovation Model, describes open-source development as a hybrid of private investment and collective action. Developers may solve problems relevant to their own work while freely revealing improvements that others can use. The result can combine private benefits with wider public benefits.
+
+Lerner and Tirole's work on the economics of open source examines the role of incentives, reputation, labour markets and industrial organisation in explaining participation. These perspectives are particularly relevant to institutional open-source strategies.
+
+A contributor may benefit from reputation, technical capability, reduced future development costs, employment opportunities and influence over shared infrastructure. The wider ecosystem benefits from reusable contributions. The relationship is not necessarily altruistic. It can be mutually productive.
+
+8.3 The digital commons
+
+Software code is generally non-rival in use: one person using a copy does not prevent another person from using the same code. However, maintaining software, reviewing contributions, governing a project and providing support require scarce labour and resources.
+
+The digital commons therefore has two different economic characteristics: the reusable informational asset can be widely shared; and the work required to maintain and govern it remains resource-constrained.
+
+This distinction explains why open access alone does not guarantee sustainability. A functioning ecosystem requires incentives, contribution processes, governance, maintenance and a continuing supply of capable participants.
+
+8.4 Seeding and future productive capacity
+
+The agricultural metaphor provides a useful way to understand the distinction. A harvest is the output available today. Seeds are the portion of that output capable of producing future harvests.
+
+In technological terms, seeds include reusable code, well-documented interfaces, test suites, standards, reference implementations, training materials, maintained libraries, reproducible workflows and contributor knowledge.
+
+A project that merely assembles existing components may produce an immediate application. A project that also contributes reusable improvements can increase the productive capacity of the ecosystem.
+
+This is the difference between consuming existing technological productivity and investing in its future production.
+
+## 9. A game-theoretic model of open-source cultivation
+
+9.1 Strategic choices
+
+Consider an ecosystem containing organisations and individual contributors. Each participant can allocate resources towards two broad strategies: extracting immediate value from existing shared infrastructure; or contributing to the maintenance and expansion of shared infrastructure.
+
+These are not mutually exclusive in practice. An organisation can use existing software and contribute improvements simultaneously. For analytical purposes, however, the distinction allows us to examine the incentives involved.
+
+9.2 Private and collective returns
+
+Let a participant's payoff be represented as:
+
+Uᵢ = Rᵢ + Sᵢ + Nᵢ − Cᵢ
+
+where Rᵢ represents direct operational returns; Sᵢ represents private strategic benefits, including reputation, capability and reduced future costs; Nᵢ represents benefits arising from the wider network and shared infrastructure; and Cᵢ represents the cost of contribution and maintenance.
+
+The collective benefit of a contribution may exceed the private benefit received by the contributor. This creates a positive externality. Other participants can reuse the contribution without bearing its original development cost, subject to the applicable licence.
+
+9.3 The collective-action problem
+
+If every participant prefers to use shared infrastructure while avoiding the cost of maintaining it, the ecosystem may become underfunded. This is a familiar collective-action problem.
+
+The challenge is to design incentives and governance arrangements that make contribution sustainable. Possible mechanisms include recognition and reputation; reciprocal contribution; institutional funding; shared maintenance agreements; upstream contribution policies; contributor development; interoperability standards; transparent governance; and commercial services built around shared infrastructure.
+
+9.4 Nash equilibrium and institutional strategy
+
+A Nash equilibrium is a strategy profile in which no participant can improve its payoff through a unilateral change in strategy, given the strategies of the other participants.
+
+The proposition here is not that every open-source ecosystem automatically converges on cultivation. Rather, cultivation can become a stable strategic outcome when the private and collective returns from contribution sufficiently compensate participants for their costs. This depends on the ecosystem's structure, governance, incentives and distribution of benefits.
+
+The empirical question is whether institutions that adopt explicit cultivation strategies achieve greater long-term productivity, lower duplication costs, stronger interoperability and more sustainable infrastructure than institutions that primarily assemble existing components. This is testable.
+
+## 10. An integrated model of productive capacity
+
+The preceding sections identify three interdependent forms of capital.
+
+10.1 Learner clinical-reasoning capital
+
+This represents the accumulated knowledge, skills and judgement of learners. It develops through deliberate practice, feedback, clinical exposure, reflection, assessment and repeated application.
+
+10.2 Institutional educational-process capital
+
+This represents the institution's ability to deliver and evaluate education efficiently and reproducibly. It includes curriculum architecture, validated question banks, assessment frameworks, faculty expertise, structured case libraries, digital workflows, longitudinal records and quality assurance.
+
+10.3 Shared digital-infrastructure capital
+
+This represents reusable technological resources that can support multiple institutions and projects. It includes open-source software, reusable educational components, interoperable data structures, documentation, standards, reference implementations, testing infrastructure and shared maintenance processes.
+
+The three forms of capital interact. A better educational workflow may improve learner development. Structured learner records may improve the educational process. Reusable technological contributions may reduce the cost of delivering the workflow elsewhere.
+
+The resulting system can be represented as:
+
+Pₜ = f(Hₜ, Iₜ, Dₜ)
+
+where Pₜ represents the productive capacity of the educational system; Hₜ represents learner human capital; Iₜ represents institutional educational-process capital; and Dₜ represents shared digital-infrastructure capital.
+
+This is a proposed analytical representation. The functional relationship and its parameters require empirical estimation.
+
+10.4 Capital accumulation
+
+A more complete dynamic formulation is:
+
+Xₜ₊₁ = (1 − Δ)Xₜ + Jₜ
+
+where Xₜ represents the combined productive-capital stock; Δ represents depreciation or obsolescence; and Jₜ represents investment in learner capability, institutional processes and shared infrastructure.
+
+The important implication is that an intervention should be evaluated not only by its immediate output but also by the assets it leaves behind.
+
+An AI-generated answer may have immediate utility. A validated question bank, assessment instrument, reusable workflow or upstream software contribution may generate benefits across multiple future cohorts.
+
+## 11. Testable propositions
+
+The framework generates the following propositions for empirical investigation.
+
+Proposition 1: Structured reasoning capture. AI-assisted case-based learning that captures structured reasoning artefacts will produce more evaluable information about learner development than an otherwise comparable intervention that records only final answers.
+
+Proposition 2: Competency outcomes. AI-assisted Socratic learning will improve clinical reasoning outcomes only when its question sequences, feedback and assessment are aligned with defined competencies and validated outcome measures.
+
+Proposition 3: Workflow efficiency. Structured educational workflows will reduce selected administrative and content-production costs when the savings in repetitive labour exceed the costs of technology, validation, governance and maintenance.
+
+Proposition 4: Longitudinal value. The economic value of an educational intervention will be greater when its outputs can be reused across successive cohorts without compromising validity, privacy or educational relevance.
+
+Proposition 5: Privacy and trust. Stronger data-governance arrangements will increase the sustainability of shared clinical educational resources by reducing privacy risks and supporting institutional and participant trust.
+
+Proposition 6: Open-source cultivation. Institutions that contribute reusable improvements to shared open-source infrastructure will generate additional ecosystem benefits beyond those available through internal deployment alone.
+
+Proposition 7: Strategic complementarity. The returns to AI-assisted education will depend partly on the availability of interoperable educational infrastructure, validated assessment methods and sustained human oversight.
+
+Proposition 8: Distributional effects. The benefits of AI-assisted educational infrastructure will not necessarily be distributed equally. Access to computing, faculty expertise, clinical cases, digital infrastructure and institutional support may affect which learners and institutions benefit most.
+
+These propositions are hypotheses. They require empirical testing and should not be presented as established findings.
+
+## 12. Proposed empirical evaluation framework
+
+12.1 Study design
+
+A multi-stage implementation study could evaluate the proposed framework. A pragmatic comparative design would be appropriate, with institutional and learner-level factors considered in the allocation and analysis.
+
+Possible study arms include conventional case-based learning; AI-assisted Socratic learning without structured reasoning capture; and AI-assisted Socratic learning with structured reasoning capture and competency-linked feedback. Where feasible, a fourth arm could examine the contribution of reusable open educational and software infrastructure.
+
+The exact design should depend on institutional feasibility, sample size, ethical approvals and the educational context.
+
+12.2 Population and setting
+
+The initial study could involve undergraduate medical students participating in case-based clinical reasoning activities. Clinical cases should be selected according to defined learning objectives and reviewed by qualified educators.
+
+A chronic kidney disease and haemodialysis case could serve as one illustrative learning context, provided that the source material is appropriately authorised and de-identified. The intervention should not depend on a single unusual case. Multiple cases and clinical domains would be required to examine transferability.
+
+12.3 Intervention specification
+
+The intervention should document the AI model and version; prompt and workflow architecture; case-selection criteria; competency mapping; question-generation rules; human validation procedures; feedback protocols; data structures; assessment methods; privacy controls; software dependencies; and reproducibility arrangements.
+
+Model updates and changes to the workflow should be documented because they may affect intervention fidelity.
+
+12.4 Primary outcomes
+
+The primary outcome should be a validated measure of clinical reasoning capability. Depending on the study context, this may involve structured clinical cases, key-feature assessments or other validated instruments. The selected measure should be specified before the study begins.
+
+12.5 Secondary outcomes
+
+Secondary outcomes may include knowledge acquisition and retention; diagnostic accuracy; problem representation quality; differential diagnosis quality; evidence interpretation; management-plan appropriateness; recognition of uncertainty; learner satisfaction; faculty workload; time required for feedback; assessment reliability; and transfer to unfamiliar cases.
+
+12.6 Economic outcomes
+
+The economic evaluation should collect faculty time, student time, technology expenditure, infrastructure costs, implementation costs, validation costs, maintenance costs, governance costs, cost per learner, cost per learner achieving a defined competency threshold, and incremental cost per unit of improvement in the primary outcome.
+
+A budget-impact analysis could assess the implications of implementation at the institutional level. A longer-term model could examine possible workforce and healthcare-system effects, provided that the causal links are supported by evidence.
+
+12.7 Open-source outcomes
+
+The technological component should be evaluated separately from the educational outcome. Relevant measures include number of reusable components released; upstream contributions accepted; documentation coverage; test coverage; defect resolution; number of external adopters; interoperability; maintenance activity; external contributions; and reuse across institutions.
+
+Downloads and repository stars alone should not be treated as evidence of sustained ecosystem productivity.
+
+12.8 Statistical and economic analysis
+
+The analysis should account for clustering by institution, teaching group and learner where appropriate. Repeated measurements should be used to examine learning trajectories rather than relying exclusively on a single post-intervention examination.
+
+Missing data, attrition, differences in baseline competence and intervention fidelity should be reported. Economic analysis should distinguish between fixed and variable costs and examine uncertainty through sensitivity analysis.
+
+The analysis plan should be registered or otherwise documented before outcome analysis. CHEERS 2022 should guide the reporting of any completed economic evaluation.
+
+## 13. Governance, equity and institutional implementation
+
+13.1 Institutional responsibility
+
+AI-assisted educational systems create new responsibilities for institutions. These include clinical accuracy, data governance, assessment validity, model oversight, faculty development, security, intellectual property, licensing, maintenance and accountability.
+
+The responsibility cannot be delegated entirely to the AI provider or software developer.
+
+13.2 Equity of access
+
+The economics of AI-assisted education must consider distributional effects. Institutions differ in computing infrastructure, faculty availability, access to clinical cases, digital literacy, financial resources, data-management capability and institutional research support.
+
+An intervention that is economically efficient in a well-resourced institution may not be equally accessible or cost-effective in a resource-constrained setting.
+
+Open-source infrastructure may reduce selected licensing and access barriers, but it does not eliminate the costs of implementation, maintenance, training and governance. Equity should therefore be evaluated as an explicit outcome rather than assumed to follow from technological openness.
+
+13.3 The role of institutional leadership
+
+Sustainable implementation requires alignment between educational objectives, technological architecture and institutional incentives.
+
+Leadership should recognise the difference between acquiring and deploying existing technology and developing reusable institutional capabilities. The latter requires investment in faculty development, shared infrastructure, open standards, reproducible workflows, maintenance, upstream contribution and long-term governance.
+
+The economic objective should be to increase the institution's productive capacity, not merely the number of AI-enabled applications it deploys.
+
+## 14. Limitations and research agenda
+
+This paper is a conceptual synthesis and proposed evaluation framework. It does not report a completed intervention, original participant data, measured implementation costs or an estimated causal effect.
+
+The proposed production functions and dynamic capital model are analytical constructs requiring empirical specification.
+
+Several limitations of the current evidence base are relevant. First, AI systems and educational interventions vary substantially in design, model capability, supervision and implementation. Second, studies frequently measure knowledge acquisition and learner satisfaction without establishing longer-term clinical reasoning outcomes. Third, the relationship between educational performance and patient-level outcomes is indirect and requires appropriate longitudinal evidence. Fourth, economic evaluations of AI-assisted CBME need to account for infrastructure, governance, maintenance and opportunity costs rather than considering only the marginal cost of model access. Fifth, the economic value of open-source contributions is difficult to capture through conventional institutional accounting because benefits may accrue to external organisations and future users.
+
+Future research should therefore combine educational measurement, health economics, software-engineering metrics and institutional analysis. A particularly important direction is the development of comparable measures of reusable educational and technological contributions.
+
+## 15. Discussion
+
+The central argument of this paper is that AI-assisted CBME should be evaluated as a system of productive-capacity formation.
+
+Three dimensions are involved. The first is the development of learner capability. Clinical reasoning is an essential component of professional human capital and must be evaluated through meaningful measures of performance.
+
+The second is the development of institutional educational capacity. Structured records, validated workflows and longitudinal assessment systems can improve the reproducibility and scalability of educational processes.
+
+The third is the development of shared technological infrastructure. Open-source contributions can create value beyond the institution that initially funds or produces them.
+
+These dimensions are complementary. An AI system that generates questions without validated assessment may increase educational activity without establishing competence gains. An institution that builds a sophisticated internal application without contributing reusable components may capture immediate value without increasing the productive capacity of the wider ecosystem. An open-source project that attracts users without maintaining its infrastructure may generate adoption without sustainability.
+
+The economic challenge is to align the incentives and outputs of all three dimensions.
+
+15.1 From immediate output to accumulated capability
+
+Traditional measures of educational productivity often emphasise outputs such as teaching hours, examination results, course completion and learner satisfaction. These measures remain useful, but they do not fully capture the accumulation of productive capacity.
+
+A more complete evaluation should ask what capabilities learners have acquired; whether those capabilities can be demonstrated in unfamiliar cases; how much faculty time is required to produce and validate the learning experience; whether the workflow can be reused; whether the institution retains the knowledge and infrastructure required to reproduce it; whether the intervention generates reusable contributions for other institutions; and whether the resulting benefits are distributed equitably.
+
+This moves the evaluation from immediate output towards accumulated capability.
+
+15.2 The economics of harvesting and cultivation
+
+The distinction between harvesting and cultivating provides a useful way to examine technological strategy. Harvesting existing resources can be economically rational. It reduces development time and allows institutions to build upon established work.
+
+However, if every participant adopts an exclusively extractive strategy, the ecosystem may not receive sufficient investment in maintenance and innovation. Cultivation requires additional expenditure but can generate shared returns.
+
+The optimal strategy is not necessarily to avoid harvesting. It is to combine the efficient use of existing resources with deliberate investment in future productive capacity. This is consistent with the private-collective innovation model described by von Hippel and von Krogh and with the incentive structures examined by Lerner and Tirole.
+
+15.3 A wider conception of healthcare productivity
+
+Healthcare productivity is influenced by more than the quantity of clinical services delivered. It also depends on the quality of decisions, the effective use of resources, the capabilities of the workforce and the reliability of supporting systems.
+
+Medical education contributes to these capabilities over time. AI-assisted CBME may therefore have value beyond reducing the cost of delivering instruction. Its potential contribution lies in strengthening the processes through which clinical capability is developed, assessed, retained and disseminated.
+
+Whether this potential translates into measurable improvements in healthcare productivity remains an empirical question.
+
+## 16. Conclusion
+
+AI-assisted medical education presents an opportunity to reconsider how clinical competence is produced and how educational systems accumulate productive capacity.
+
+The immediate application may be a sequence of Socratic questions built around a clinical case. The larger opportunity is a reproducible system that captures observable reasoning, supports competency development, automates repeatable workflows, produces evaluable research evidence and contributes reusable technological infrastructure.
+
+The economic value of such a system cannot be established by counting questions, chatbot interactions, publications or repository downloads. It requires evidence of learning outcomes, a complete account of costs, appropriate assessment of privacy and governance, and an understanding of how benefits accumulate across learners, institutions and the wider ecosystem.
+
+The distinction between harvesting and cultivating is therefore more than a metaphor. It describes two different approaches to technological participation.
+
+Harvesting realises the value of existing productive resources. Cultivation increases the capacity to produce future value.
+
+For medical education, the corresponding objective is to develop learners who can reason effectively, institutions that can reproduce and evaluate educational quality, and technological ecosystems that can sustain further innovation.
+
+The immediate output may be a better learning experience. The longer-term objective is a more capable educational and healthcare system.
+
+A harvest is worth celebrating. A cultivated field is worth returning to. The enduring economic value lies in the productive capacity that remains after the harvest.
+
+## References
+
+1. Lucas HC, Upperman JS, Robinson JR. A systematic review of large language models and their implications in medical education. Medical Education. 2024;58(11):1276-1285. https://doi.org/10.1111/medu.15402
+
+2. Pham TD, et al. The impact of generative AI on health professional education: A systematic review in the context of student learning. Medical Education. 2025;59(12):1280-1289. https://doi.org/10.1111/medu.15746
+
+3. Wei H, Dai Y, Yuan K, et al. AI-Powered Problem- and Case-based Learning in Medical and Dental Education: A Systematic Review and Meta-analysis. International Dental Journal. 2025;75(4):100858. https://doi.org/10.1016/j.identj.2025.100858
+
+4. Cooper N, Bartlett M, Gay S, et al. Consensus statement on the content of clinical reasoning curricula in undergraduate medical education. Medical Teacher. 2021;43(2):152-159. https://doi.org/10.1080/0142159X.2020.1842343
+
+5. Alharbi NS. Evaluating competency-based medical education: a systematized review of current practices. BMC Medical Education. 2024;24:612. https://doi.org/10.1186/s12909-024-05609-6
+
+6. Bok HGJ, de Jong LH, O'Neill T, Maxey C, Hecker KG. Validity evidence for programmatic assessment in competency-based education. Perspectives on Medical Education. 2018;7:362-372. https://doi.org/10.1007/s40037-018-0481-2
+
+7. Becker GS. Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education. National Bureau of Economic Research; 1964. https://www.nber.org/books-and-chapters/human-capital-theoretical-and-empirical-analysis-special-reference-education-first-edition
+
+8. Grossman M. On the concept of health capital and the demand for health. Journal of Political Economy. 1972;80(2):223-255. https://doi.org/10.1086/259880
+
+9. Husereau D, Drummond M, Augustovski F, et al. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) statement: updated reporting guidance for health economic evaluations. BMJ. 2022;376:e067975. https://doi.org/10.1136/bmj-2021-067975
+
+10. Lerner J, Tirole J. Some simple economics of open source. The Journal of Industrial Economics. 2002;50(2):197-234. https://doi.org/10.1111/1467-6451.00174
+
+11. von Hippel E, von Krogh G. Open source software and the 'private-collective' innovation model: issues for organization science. Organization Science. 2003;14(2):209-223. https://doi.org/10.1287/orsc.14.2.209.14992
+
+12. Lerner J, Tirole J. The economics of technology sharing: open source and beyond. Journal of Economic Perspectives. 2005;19(2):99-120. https://doi.org/10.1257/0895330054048678
+
+13. Johnson JP. Open source software: private provision of a public good. Journal of Economics & Management Strategy. 2002;11(4):637-662. https://doi.org/10.1111/j.1430-9134.2002.00637.x
+
+14. Indian Council of Medical Research. National Ethical Guidelines for Biomedical and Health Research Involving Human Participants. New Delhi: ICMR; 2017. https://www.icmr.gov.in/icmrobject/custom_data/pdf/resource-guidelines/ICMR_Ethical_Guidelines_2017.pdf
+
+15. World Medical Association. World Medical Association Declaration of Helsinki: ethical principles for medical research involving human participants. JAMA. 2025;333(1):71-74. https://doi.org/10.1001/jama.2024.21972
+
+16. Council for International Organizations of Medical Sciences (CIOMS). International Ethical Guidelines for Health-related Research Involving Humans. 4th ed. Geneva: CIOMS; 2016.
+
+17. World Health Organization. Ethics and governance of artificial intelligence for health: WHO guidance. Geneva: World Health Organization; 2021.
+
+18. Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (General Data Protection Regulation). Official Journal of the European Union. 2016;L 119:1-88. https://eur-lex.europa.eu/eli/reg/2016/679/oj
+
+19. United States Department of Health and Human Services. Standards for Privacy of Individually Identifiable Health Information (HIPAA Privacy Rule). 45 CFR Parts 160 and 164; de-identification standard at 45 CFR 164.514(b). https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164
+
+
+## Author contribution
+
+Abhishek Choudhary is the sole author of this manuscript.
+
+## Research-integrity statement
+
+This is a developed conceptual manuscript, not a completed empirical health economics study. No intervention results, participant data, cost estimates or empirical Nash-equilibrium findings have been invented in this manuscript.
+
+The verification state of each reference, and of each figure quoted from a source, is recorded in the repository that publishes this manuscript: https://github.com/zistgah/hecon (REFERENCES.md).
+
+## Copyright and licence
+
+© 1993–2026 Abhishek Choudhary. All rights reserved. AyeAI.
+
+The text of this manuscript is licensed under the Creative Commons Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0).

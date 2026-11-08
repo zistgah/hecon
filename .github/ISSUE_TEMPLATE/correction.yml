@@ -1,0 +1,16 @@
+# © 1993–2026 Abhishek Choudhary. All rights reserved. AyeAI.
+name: Correction
+description: Something in the paper, the model or a notebook is wrong.
+labels: ["correction"]
+body:
+  - type: textarea
+    id: what
+    attributes: {label: What is wrong, description: "Quote it and say where it is (file and section, or notebook and step)."}
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes: {label: The source that shows it, description: "A DOI, a link or a run you can repeat."}
+    validations: {required: true}
+  - type: textarea
+    id: intent
+    attributes: {label: What you want changed, in your own words}

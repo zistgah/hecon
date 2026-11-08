@@ -1,0 +1,111 @@
+{
+ "schema": "the component cards of zistgah/rahnuma data/components.json (id, name, repo, what, needs, setup, run, see, status, aud, note) with 'home' and 'reuse' added",
+ "reused": [
+  {
+   "id": "zops",
+   "name": "zops 1.2.0",
+   "repo": "zistgah/governance",
+   "commit": "f62ab9c",
+   "how": "sourced by seed_hecon.sh for push, Pages and mint; fetched from governance when absent",
+   "what": "the estate's operations library"
+  },
+  {
+   "id": "misty",
+   "name": "Misty DOI 1.2.0",
+   "repo": "project-ilm/misty-doi",
+   "commit": "5093260",
+   "how": "misty publish and misty newversion through zops_mint; misty validate, transform, masi in notebook 06",
+   "what": "DOI minting and packaging for Zenodo"
+  },
+  {
+   "id": "licences",
+   "name": "GPL-3.0 and CC BY-SA 4.0 texts",
+   "repo": "zistgah/rahnuma",
+   "commit": "2653126",
+   "how": "LICENSE and LICENSE-docs copied byte for byte",
+   "what": "the verbatim licence texts"
+  },
+  {
+   "id": "cards",
+   "name": "component card schema",
+   "repo": "zistgah/rahnuma",
+   "commit": "2653126",
+   "how": "the fields of data/components.json",
+   "what": "how the estate describes a runnable component"
+  },
+  {
+   "id": "llm-models",
+   "name": "open-weight model choice",
+   "repo": "hindawiai/hindawi2026.10",
+   "commit": "b53530f",
+   "how": "the Qwen2.5 family offered in notebooks/llm/hindawi_llm.ipynb, used for the local tutor in notebook 04",
+   "what": "the estate's tested model list for Colab"
+  },
+  {
+   "id": "cvas",
+   "name": "CVAS cloud harness notebook",
+   "repo": "zistgah/cvas",
+   "commit": "0060f0a",
+   "how": "linked from notebook 03 for verifying contributions",
+   "what": "contribution, verification and assurance harness"
+  },
+  {
+   "id": "matba",
+   "name": "matba Colab conventions",
+   "repo": "zistgah/matba",
+   "commit": "8c4f0ec",
+   "how": "form-view titles, tokens typed and never stored, a typed word before anything permanent",
+   "what": "the press, posters in and book out"
+  },
+  {
+   "id": "trademarks",
+   "name": "trade-mark notice template",
+   "repo": "received estate fix of 5 Nov 2026",
+   "commit": "DISCLAIMER_TRADEMARKS.md sha256 3c0f4c5789d67718",
+   "how": "legal/TRADEMARKS.md filled for zistgah/hecon",
+   "what": "the corrected marking AyeAI®, AyeAM®, AyeCNSe™"
+  }
+ ],
+ "hosted": [
+  {
+   "id": "health-it-lab",
+   "name": "Health IT and health-tech AI lab",
+   "path": "notebooks/04_health_it_ai_lab.ipynb, hecon/health.py",
+   "home": "zistgah/marham",
+   "home_commit": "6c0855e",
+   "status": "executed",
+   "note": "marham holds only its charter today; move both files there and link back from here"
+  },
+  {
+   "id": "workbench",
+   "name": "Formula and Document Conversion Workbench",
+   "path": "notebooks/05_formula_document_workbench.ipynb",
+   "home": "zistgah/matba (proposed; the author's ruling)",
+   "status": "executed",
+   "note": "the author's notebook; its PDF export produced no PDF for the paper's Markdown in the build environment, the other five formats were produced; cause not diagnosed"
+  },
+  {
+   "id": "mint-notebook",
+   "name": "Mint your own work with Misty DOI",
+   "path": "notebooks/06_mint_with_misty.ipynb",
+   "home": "project-ilm/misty-doi",
+   "status": "executed offline; the timestamp and mint steps are off by default and were not run",
+   "note": "misty-doi has no notebook today"
+  },
+  {
+   "id": "refcheck",
+   "name": "refcheck",
+   "path": "tools/refcheck.py",
+   "home": "zistgah/governance ops/ (proposed), with the verification clause",
+   "status": "tested against a stand-in; live checks run on the author's machine at seed time",
+   "note": "generic: any repository's references.json"
+  }
+ ],
+ "native": [
+  {
+   "id": "model",
+   "path": "hecon/model.py, hecon/economics.py, hecon/game.py, docs/hecon-model.js, notebooks 01 to 03",
+   "home": "zistgah/hecon"
+  }
+ ]
+}

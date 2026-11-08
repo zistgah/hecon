@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.verify-nb/
+.nbrun/
+hecon_outputs/
+logs/
+.zops-mint/
