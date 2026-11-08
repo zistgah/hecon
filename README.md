@@ -1,5 +1,7 @@
 # From Educational Harvesting to Productive Capacity
 
+DOI: [10.5281/zenodo.24064479](https://doi.org/10.5281/zenodo.24064479)
+
 A health economics framework for AI-assisted clinical reasoning, competency-based medical education and open knowledge infrastructure: the paper, a scenario simulator and six Colab notebooks for medicos.
 
 **Abhishek Choudhary**, AyeAI, Hyderabad, India. ORCID [0009-0002-0684-8320](https://orcid.org/0009-0002-0684-8320). Correspondence: ayeai.ayeam@gmail.com
